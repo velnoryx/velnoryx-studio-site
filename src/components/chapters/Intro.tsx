@@ -114,18 +114,18 @@ export default function Intro({ onExplore, onScrollToChapter1 }: IntroProps) {
     <div ref={containerRef} className="relative w-full z-20">
       {/* ── First Screen: 5000 Years ────────────────────────────────────────── */}
       <section
-        className="h-screen w-full flex flex-col justify-center items-center px-6 relative pt-32 md:pt-40 z-10 pointer-events-none sticky top-0"
+        className="h-[100dvh] w-full flex flex-col justify-center items-center px-4 sm:px-6 relative pt-20 z-10 pointer-events-none sticky top-0"
       >
         {/* Hero content — driven purely by scroll */}
         <motion.div
           style={{ opacity: heroOpacity, y: heroY }}
-          className="max-w-xl md:max-w-4xl flex flex-col items-center text-center pointer-events-auto will-change-transform"
+          className="max-w-xl md:max-w-4xl flex flex-col items-center text-center pointer-events-auto will-change-transform mt-4 md:mt-8"
         >
           <motion.h1
             initial={{ opacity: 0, y: 32, scale: 0.97 }}
             animate={isLoaded ? { opacity: 1, y: 0, scale: 1 } : {}}
             transition={{ duration: 1.1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
-            className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold tracking-wide text-white text-glow mb-6 leading-tight"
+            className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-wide text-white text-glow mb-4 leading-tight"
           >
             For over 5,000 years...
           </motion.h1>
@@ -134,14 +134,14 @@ export default function Intro({ onExplore, onScrollToChapter1 }: IntroProps) {
             initial={{ opacity: 0, scaleX: 0 }}
             animate={isLoaded ? { opacity: 0.8, scaleX: 1 } : {}}
             transition={{ duration: 0.9, delay: 1.0, ease: [0.16, 1, 0.3, 1] }}
-            className="w-24 h-[2px] bg-gradient-to-r from-saffron via-gold-400 to-ashoka rounded-full my-6 origin-left"
+            className="w-16 md:w-24 h-[2px] bg-gradient-to-r from-saffron via-gold-400 to-ashoka rounded-full my-4 md:my-6 origin-left"
           />
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={isLoaded ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1, delay: 1.2 }}
-            className="text-base md:text-lg lg:text-xl text-gray-300 max-w-2xl leading-relaxed font-sans mb-10"
+            className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 max-w-2xl leading-relaxed font-sans mb-6 md:mb-10"
           >
             From the world's oldest civilizations to cutting-edge space exploration, discover how
             India has shaped history, inspired cultures, and continues to influence the global future
@@ -152,7 +152,7 @@ export default function Intro({ onExplore, onScrollToChapter1 }: IntroProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={isLoaded ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 1.5 }}
-            className="flex flex-col sm:flex-row justify-center gap-6 mb-16"
+            className="flex flex-col sm:flex-row justify-center gap-4 md:gap-6 mb-8 md:mb-16"
           >
             <button
               onClick={onExplore}
