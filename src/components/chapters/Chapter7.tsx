@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import { motion, useInView, animate } from 'framer-motion';
 import { TrendingUp, Landmark, DollarSign, Award, Loader2 } from 'lucide-react';
 import { ResponsiveContainer, AreaChart, Area, BarChart, Bar, LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
-import { economyData as fallbackEconomy } from '../data/fallbackData';
-import ExhibitButton from './ExhibitButton';
+import { economyData as fallbackEconomy } from '../../data/fallbackData';
+import ExhibitButton from '../common/ExhibitButton';
 
 // Animated Count-Up Component
 function CountUpNumber({ value, suffix = '', decimals = 0 }: { value: number; suffix?: string; decimals?: number }) {

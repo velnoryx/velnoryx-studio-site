@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Camera, MapPin } from 'lucide-react';
-import ExhibitButton from './ExhibitButton';
+import ExhibitButton from '../common/ExhibitButton';
 
 interface WonderItem {
   title: string;

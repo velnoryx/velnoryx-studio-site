@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Globe, Users, HeartHandshake, Eye, Loader2 } from 'lucide-react';
-import { globalData as fallbackGlobal } from '../data/fallbackData';
-import ExhibitButton from './ExhibitButton';
+import { globalData as fallbackGlobal } from '../../data/fallbackData';
+import ExhibitButton from '../common/ExhibitButton';
 
 interface Route {
   name: string;

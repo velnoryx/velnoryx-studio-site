@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Calendar, Eye, Image as ImageIcon, ArrowRight, Loader2 } from 'lucide-react';
-import { timelineEvents as fallbackTimeline } from '../data/fallbackData';
-import ExhibitButton from './ExhibitButton';
+import { timelineEvents as fallbackTimeline } from '../../data/fallbackData';
+import ExhibitButton from '../common/ExhibitButton';
 
 interface TimelineEvent {
   id: number;

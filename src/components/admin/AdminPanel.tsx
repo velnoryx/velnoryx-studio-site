@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Save, ArrowLeft, Section as SectionIcon, TrendingUp, Calendar, Map as MapIcon, BarChart3, AlertCircle, CheckCircle2, Loader2 } from 'lucide-react';
-import { sectionsData as fallbackSections } from '../data/fallbackData';
+import { sectionsData as fallbackSections } from '../../data/fallbackData';
 
 interface AdminPanelProps {
   onBack: () => void;

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { BookOpen, Flower, Hash, Orbit, Compass } from 'lucide-react';
-import ExhibitButton from './ExhibitButton';
+import ExhibitButton from '../common/ExhibitButton';
 
 interface AncientItem {
   title: string;

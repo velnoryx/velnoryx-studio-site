@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Rocket, Moon, Sun, Orbit, Globe2 } from 'lucide-react';
-import ExhibitButton from './ExhibitButton';
+import ExhibitButton from '../common/ExhibitButton';
 
 interface SpaceMilestone {
   title: string;

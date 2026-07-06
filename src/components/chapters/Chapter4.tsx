@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Smartphone, Zap, Cpu, Sparkles, Building, Rocket, Loader2 } from 'lucide-react';
-import { statsData as fallbackStats } from '../data/fallbackData';
-import ExhibitButton from './ExhibitButton';
+import { statsData as fallbackStats } from '../../data/fallbackData';
+import ExhibitButton from '../common/ExhibitButton';
 
 const iconMap: Record<string, React.ReactNode> = {
   Smartphone: <Smartphone className="w-6 h-6 text-saffron" />,

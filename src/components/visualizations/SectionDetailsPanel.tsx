@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Globe, Smartphone, Rocket, Calendar, Landmark, Award, BookOpen, Compass, HeartHandshake, Eye, Sparkles, ArrowRight, ExternalLink } from 'lucide-react';
-import { sectionsData as fallbackSections } from '../data/fallbackData';
+import { sectionsData as fallbackSections } from '../../data/fallbackData';
 
 // Map string icon names to Lucide icon components
 const iconMap: Record<string, React.ComponentType<any>> = {

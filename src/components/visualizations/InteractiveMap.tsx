@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { MapPin, Compass, Landmark, Utensils, CalendarDays, Sparkles, Loader2 } from 'lucide-react';
-import { INDIA_STATES_PATHS, STATE_NAMES, STATE_TO_REGION } from '../data/indiaMapData';
-import { mapRegionsData as fallbackRegions } from '../data/fallbackData';
+import { INDIA_STATES_PATHS, STATE_NAMES, STATE_TO_REGION } from '../../data/indiaMapData';
+import { mapRegionsData as fallbackRegions } from '../../data/fallbackData';
 
 interface RegionData {
   id: string;

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Languages, Calendar, Disc, Music, Apple, Shirt, Palette } from 'lucide-react';
-import ExhibitButton from './ExhibitButton';
+import ExhibitButton from '../common/ExhibitButton';
 
 interface CultureAspect {
   id: string;
