@@ -51,10 +51,11 @@
   // Load logo images
   let loadedCount = 0;
   const monogramImg = new Image();
-  monogramImg.src = '/logo_monogram_trimmed.png';
+  monogramImg.src = 'logo_monogram_trimmed.png';
   
+  // Load logo text image
   const textImg = new Image();
-  textImg.src = '/logo_text_trimmed.png';
+  textImg.src = 'logo_text_trimmed.png';
 
   // Wait for both images and custom fonts (Cinzel, Outfit) to be ready
   const checkLoad = () => {
@@ -1043,7 +1044,7 @@
     if (document.getElementById('velnoryx-watermark')) return;
 
     const wmImg = new Image();
-    wmImg.src = '/logo_monogram_trimmed.png';
+    wmImg.src = 'logo_monogram_trimmed.png';
     wmImg.crossOrigin = 'anonymous';
     wmImg.onload = () => {
       const filteredDataUrl = filterLogoToGold(wmImg);
