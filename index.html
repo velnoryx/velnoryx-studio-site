@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>India on the World Stage | An Immersive Storytelling Journey</title>
+    <meta name="description" content="Explore India's journey from its ancient civilization to its modern role as a global leader through cinematic scroll-driven animations, 3D visualizations, and interactive maps." />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Outfit:wght@200;300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      /* Prevent initial white screen flash */
+      html, body {
+        background-color: #030712; /* Tailwind gray-950 */
+        color: #f9fafb; /* Tailwind gray-50 */
+        margin: 0;
+        padding: 0;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+    </style>
+    <!-- Cinematic Splash Loader Links -->
+    <link rel="stylesheet" href="/loader.css" />
+    <script src="/loader.js" defer></script>
+  </head>
+  <body class="bg-gray-950 text-gray-50 overflow-x-hidden antialiased selection:bg-orange-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
