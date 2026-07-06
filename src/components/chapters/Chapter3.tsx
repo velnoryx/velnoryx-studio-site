@@ -32,7 +32,7 @@ const wonders: WonderItem[] = [
     title: 'The Land of High Passes',
     location: 'Leh Ladakh',
     description: 'A high-altitude desert wonderland of dramatic barren mountains, deep blue lakes like Pangong Tso, and ancient, cliff-clinging Buddhist monasteries.',
-    image: '/assets/leh_ladakh.jpg'
+    image: 'assets/leh_ladakh.jpg'
   },
   {
     title: 'The Eternal Himalayas',
@@ -50,7 +50,7 @@ const wonders: WonderItem[] = [
     title: 'The Sacred Ghats',
     location: 'Varanasi, Uttar Pradesh',
     description: 'One of the world\'s oldest continuously inhabited cities. Pilgrims gather on stone ghats by the Ganges River for spiritual fire ceremonies (Ganga Aarti).',
-    image: '/assets/varanasi.jpg'
+    image: 'assets/varanasi.jpg'
   },
   {
     title: 'Tropical Archipelago',

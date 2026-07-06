@@ -22,7 +22,7 @@ function DetailedEarth({
 }) {
   const particlesRef = useRef<THREE.Points>(null);
 
-  const texture = useTexture('/textures/earth_glow.jpg');
+  const texture = useTexture('textures/earth_glow.jpg');
 
   const particlesCount = 1500;
   const positions = useMemo(() => {

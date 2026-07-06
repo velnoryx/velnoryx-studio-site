@@ -162,7 +162,7 @@ export const sectionsData = [
     gallery: [
       'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80',
       'https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?auto=format&fit=crop&w=800&q=80',
-      '/assets/varanasi.jpg',
+      'assets/varanasi.jpg',
       'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&fit=crop&w=800&q=80'
     ],
     learnMore: [
@@ -617,10 +617,10 @@ export const cultureData = {
 };
 
 const travelImages = [
-  '/assets/leh_ladakh.jpg',
+  'assets/leh_ladakh.jpg',
   'https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=600&q=80',
   'https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?auto=format&fit=crop&w=600&q=80',
-  '/assets/varanasi.jpg',
+  'assets/varanasi.jpg',
   'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80',
   'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&fit=crop&w=600&q=80'
 ];
@@ -646,7 +646,7 @@ export const timelineEvents = [
     date: 'January 26th',
     category: 'Constitutional',
     tagline: 'Celebrating the Sovereign Republic',
-    mainImage: '/republic-day-parade.png',
+    mainImage: 'republic-day-parade.png',
     description: 'Commemorating the adoption of India\'s constitution on January 26, 1950. The celebration features a massive, colorful military and cultural parade on New Delhi\'s Kartavya Path, demonstrating the country\'s defense capabilities and cultural heritage to world leaders.',
     gallery: [
       'https://images.unsplash.com/photo-1562979314-bee7453e911c?auto=format&fit=crop&w=400&q=80',
