@@ -801,11 +801,7 @@
         // Fonts styles & gradients
         const fontStyle = `300 ${brandFontSize}px 'Outfit'`;
         
-        const gradGold1 = ctx.createLinearGradient(0, currentY1 - brandFontSize * 0.5, 0, currentY1 + brandFontSize * 0.5);
-        gradGold1.addColorStop(0, '#FFFFFF');     // white highlights
-        gradGold1.addColorStop(0.2, '#FFF8E7');   // cream sheen
-        gradGold1.addColorStop(0.45, '#D4AF37');  // gold body
-        gradGold1.addColorStop(1, '#A0760F');     // dark shadow
+        const solidGold = '#D4AF37';  // Solid gold color
 
         const gradSilver1 = ctx.createLinearGradient(0, currentY1 - brandFontSize * 0.5, 0, currentY1 + brandFontSize * 0.5);
         gradSilver1.addColorStop(0, '#FFFFFF');     // white highlights
@@ -813,7 +809,7 @@
         gradSilver1.addColorStop(1, '#B0B5BC');     // silver shadow
 
         const fillStyle1 = (char, idx) => {
-          return idx >= 5 ? gradSilver1 : gradGold1; // 'RYX' are indices 5, 6, 7
+          return idx >= 5 ? gradSilver1 : solidGold; // 'RYX' are indices 5, 6, 7
         };
 
         // Sculpted from light glow
