@@ -767,7 +767,7 @@
     }
 
     function drawLogoText(elapsed, exitProgress, timestamp) {
-      // Line 1: VELNORYX (Outfit Sans-serif, Gold for VELNORY, Silver/White for X)
+      // Line 1: VELNORYX (Outfit Sans-serif, Gold for VELNO, Silver/White for RYX)
       const t1 = Math.min(Math.max((elapsed - TIME_REVEAL_TEXT1) / 1200, 0), 1);
       const e1 = easeOutQuart(t1);
       
@@ -813,7 +813,7 @@
         gradSilver1.addColorStop(1, '#B0B5BC');     // silver shadow
 
         const fillStyle1 = (char, idx) => {
-          return idx === 7 ? gradSilver1 : gradGold1; // 'X' is index 7
+          return idx >= 5 ? gradSilver1 : gradGold1; // 'RYX' are indices 5, 6, 7
         };
 
         // Sculpted from light glow
